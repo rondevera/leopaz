@@ -19,6 +19,8 @@ Assuming you already have [Spaz][5] installed:
 
 Enjoy! Find me on Twitter as [@ronalddevera][7]. Comments and requests are welcome.
 
+<small>(This code is adapted from Spaz's default theme.)</small>
+
   [1]: http://www.apple.com/macosx/
   [2]: http://funkatron.com/spaz
   [3]: http://twitter.com
