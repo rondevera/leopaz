@@ -34,7 +34,7 @@ a:hover{
 
 /*
 	the .even and .odd classes are really only used in the timelines, but 
-	they're usedful and probably could be reused elsewhere.
+	they're useful and probably could be reused elsewhere.
 */
 .odd{
 	background:#f1f5fa;
@@ -83,7 +83,7 @@ a:hover{
 			#window-buttons{
 				position:absolute;
         left:8px;
-        top:5px;
+        top:4px;
 			}
 				.window-button{
 				  position:absolute;
