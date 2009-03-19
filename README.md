@@ -1,7 +1,7 @@
 Leopaz
 ======
 
-An [OS X][1] Leopard-style theme for [Spaz][2], the open-source [Twitter][3] client.
+An [OS X][1] Leopard-style theme for [Spaz][2], the open-source [Twitter][3] client. ([preview][4])
 
 ![Leopaz preview][4]
 
