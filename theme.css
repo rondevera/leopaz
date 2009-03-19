@@ -759,7 +759,8 @@ div.timeline-entry:hover{
 		div.timeline-entry.ui-selected div.status-actions{
 		  display:block;
 		}
-	    .status-action{
+	    .status-action,
+	    .status-action-del{
         display:inline-block;
         width:23px;
         height:20px;
@@ -768,7 +769,8 @@ div.timeline-entry:hover{
         background-position:0 0;
         background-repeat:no-repeat;
 	    }
-	    .status-action:hover{
+	    .status-action:hover,
+	    .status-action-del:hover{
 	      background-position:0 -20px;
 	    }
 	      .status-action:first-child{
@@ -779,6 +781,7 @@ div.timeline-entry:hover{
 		    .status-action-retweet  { background-image:url(images/status-retweet.png); }
 		    .status-action-dm       { background-image:url(images/status-dm.png); }
 		    .status-action-reply    { background-image:url(images/status-reply.png); }
+		    .status-action-del      { /* TODO: Add background image */ }
 
 		/* the container for the "permalink" to the post */
 		div.status-link{
