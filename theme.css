@@ -713,7 +713,7 @@ div.timeline-entry:hover{
 		img.user-image{
 			margin-bottom:2px;
 			background:#fff url(images/userimg-bg.png) 0 0 no-repeat;
-			border:3px double #999999;
+      border:1px solid #999999;
 			-webkit-box-shadow:0px 1px 5px #333;
 		}
 
