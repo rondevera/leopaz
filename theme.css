@@ -360,8 +360,21 @@ a:hover{
               }
           		.panelmenu form input[type='text']:focus{
           		  color:#0f0f0f;
-                /* TODO: Add blue glow */
+                  /* TODO: Add blue glow if input[type] can't be changed to "search" */
           		}
+          		  div#panel-search .panelmenu form{
+          		    text-align:right;
+          		  }
+          		  div#panel-search .panelmenu form input{
+          		    position:static;
+          		    text-align:center;
+          		  }
+          		  div#panel-search .panelmenu form input#search-for{
+          		    text-align:left;
+          		  }
+          		  div#panel-search .panelmenu form input#search-help{
+          		    float:left;
+          		  }
 			        
 
 					/*
