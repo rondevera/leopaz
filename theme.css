@@ -449,9 +449,11 @@ a:hover{
 			position:absolute;
 			margin:0;
 			padding:0;
-			bottom:28px;
+      bottom:28px;
 			left:0;
 			right:0;
+			height:66px;
+			background:#bdbdbd url(images/entry-form-bg.png) 0 0 repeat-x;
 			z-index:10;
 		}
 			/*
@@ -460,23 +462,25 @@ a:hover{
 			#entrybox{
 				bottom:0px;
 				position:absolute;
-				margin:0;
-				left:0;
-				right:0;
+        margin:0;
+				left:4px;
+				right:5px;
 				height:42px;
 				font-size:11px;
 				overflow:auto;
 				padding:5px 5px 15px 5px;
 				text-align:left;
-				background:#f0f0f0 url(images/dropshadow.png) 0 -2px repeat-x;
-				border:none;
+        background:#f0f0f0 url(images/text-input-bg.png) 0 0 no-repeat;
+        border:none;
 			}
 				/* the hint shown when the widget does not have focus */
 				.textareaHintState{
 					color:#828282;
 				}
 				/* Formatting for when the textarea has focus */
-				.textareaFocusState{
+				.textareaFocusState,
+				#entrybox:focus{
+				  background-color:#ffffff;
 					color:#000000;
 				}
 			
@@ -511,7 +515,7 @@ a:hover{
 			left:0;
 			right:0;
 			bottom:0;
-			height:14px;
+      height:14px;
 			padding:7px 20px 7px 6px;
 			overflow:hidden;
       background:transparent url(images/status-bar-bg.png) 0 0 repeat-x;
