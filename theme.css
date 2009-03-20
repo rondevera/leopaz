@@ -372,6 +372,10 @@ a:hover{
           		  div#panel-search .panelmenu form input#search-for{
           		    text-align:left;
           		  }
+          		  div#panel-search .panelmenu form input#search-go{
+          		    width:28px;
+          		    background-image:url(images/panel-menu-button-small.png);
+          		  }
           		  div#panel-search .panelmenu form input#search-help{
           		    float:left;
           		  }
