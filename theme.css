@@ -590,10 +590,13 @@ a:hover{
 
 	}
 		#tooltip h3, #tooltip div {
-			margin: 0;
+			margin:0;
 			font-weight:normal;
 			font-size:inherit;
 		}
+		  #tooltip div.latest{
+		    margin:1em 0 0;
+		  }
 
 
 
