@@ -691,6 +691,10 @@ div.timeline-entry:hover{
 		div.timeline-entry.read .status-text{
 			color:#999;
 		}
+		div.timeline-entry.read.reply .status-text,
+		div.timeline-entry.read.dm .status-text{
+		  color:#666;
+		}
 		div.timeline-entry.read.ui-selected .status-text{
 			color:#CCCCCC;
 		}
