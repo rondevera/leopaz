@@ -288,7 +288,8 @@ a:hover{
         left:0;
 				right:0;
         top:60px;
-				bottom:90px;
+/*        bottom:90px;*/
+				bottom:94px;
 				clear:both;
 				background-color:#FFFFFF;
 			}
