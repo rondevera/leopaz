@@ -848,22 +848,26 @@ div.timeline-entry:hover{
 }
 	.friendslist-row .directory-user{}
 		.directory-user .user-image{
+			float:left;
 			background-color:#dddddd;
 			border:1px solid #999;
 			width:24px;
 			height:24px;
 			margin:0 5px 0 0;
 			-webkit-box-shadow:none;
-			float:left;
 		}
 		.directory-user .directory-user-name{
 			font-size:16px;
 			letter-spacing:-1px;
 		}
-		.directory-user .directory-user-location:hover{
-		  text-decoration:underline;
+		.directory-user .directory-user-name,
+		.directory-user .directory-user-info{
+		  margin-left:32px;
 		}
-		.directory-user .directory-user-homepage{}
+  		.directory-user .directory-user-location:hover{
+  		  text-decoration:underline;
+  		}
+  		.directory-user .directory-user-homepage{}
 
 
 
