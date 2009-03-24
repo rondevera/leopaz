@@ -12,10 +12,11 @@ Installation
 Assuming you already have [Spaz][6] installed:
 
  1. In Spaz, switch to the Preferences tab, scroll to the bottom, and click *Open Prefs Folder*. Inside that, open the *userthemes* folder.
- 2. Download the [latest version][5] of Leopaz.
- 3. Unzip your downloaded copy, and drop the resulting *Leopaz* folder into the *userthemes* folder.
- 4. Restart Spaz.
- 5. In Spaz, switch to the Preferences tab again. In the *Interface* section, select *Leopaz* from the *Theme* dropdown menu.
+ 2. **Important:** If you have a *leopaz* (lowercase) folder already, switch to Spaz, change your theme to the default *spaz*, and quit Spaz.
+ 3. Download the [latest version][5] of Leopaz.
+ 4. Unzip your downloaded copy, and drop the resulting *Leopaz* folder into the *userthemes* folder.
+ 5. Restart Spaz.
+ 6. In Spaz, switch to the Preferences tab again. In the *Interface* section, select *Leopaz* from the *Theme* dropdown menu.
 
 Enjoy! Find me on Twitter as [@ronalddevera][7]. Comments and requests are welcome.
 
