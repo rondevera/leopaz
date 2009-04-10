@@ -696,7 +696,7 @@ div.timeline-entry:hover{
 		  color:#666;
 		}
 		div.timeline-entry.read.ui-selected .status-text{
-			color:#CCCCCC;
+			color:#f0f0f0;
 		}
 		div.timeline-entry.read div.user{
 		  opacity:0.5;
