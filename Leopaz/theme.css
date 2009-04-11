@@ -684,7 +684,10 @@ div.timeline-entry:hover{
 	  opacity:1;
 	}
 		div.timeline-entry.read .status-text{
+		  overflow:hidden;
 			color:#999;
+			text-overflow:ellipsis;
+			white-space:nowrap;
 		}
 		div.timeline-entry.read.reply .status-text,
 		div.timeline-entry.read.dm .status-text{
@@ -692,6 +695,7 @@ div.timeline-entry:hover{
 		}
 		div.timeline-entry.read.ui-selected .status-text{
 			color:#f0f0f0;
+			white-space:normal;
 		}
 		div.timeline-entry.read div.user{
 		  opacity:0.5;
