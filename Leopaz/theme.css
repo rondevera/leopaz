@@ -858,6 +858,10 @@ div.timeline-entry:hover{
 	clear:both;
 	font-size:8pt;
 }
+  .friendslist-row .directory-user-followstatus{
+    float:right;
+    opacity:0.5;
+  }
 	.friendslist-row .directory-user{}
 		.directory-user .user-image{
 			float:left;
