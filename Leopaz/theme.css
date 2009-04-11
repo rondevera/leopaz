@@ -32,6 +32,9 @@ a, a:link, .clickable{
 a:hover{
   text-decoration:underline;
 }
+*:focus{
+  outline:0;
+}
 
 /*
 	the .even and .odd classes are really only used in the timelines, but 
