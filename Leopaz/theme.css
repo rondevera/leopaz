@@ -876,14 +876,31 @@ div.timeline-entry:hover{
 			font-size:16px;
 			letter-spacing:-1px;
 		}
+		  .directory-user .directory-user-name div.name a{
+        color:#666;
+        font-size:0.675em;
+        font-weight:bold;
+        text-transform:uppercase;
+      }
 		.directory-user .directory-user-name,
 		.directory-user .directory-user-info{
 		  margin-left:44px;
 		}
-  		.directory-user .directory-user-location:hover{
+		.directory-user .directory-user-info{
+		  margin-top:0.5em;
+		  margin-bottom:-1.5em; /* Close up unneeded space below */
+		}
+		  .directory-user .directory-user-info .clickable{
+		    opacity:0.75;
+		  }
+		  .directory-user .directory-user-info .clickable:hover{
+		    opacity:1;
   		  text-decoration:underline;
-  		}
-  		.directory-user .directory-user-homepage{}
+		  }
+  		.directory-user .directory-user-location:hover{}
+		  .directory-user .directory-user-homepage{
+		    display:block;
+		  }
 
 
 
