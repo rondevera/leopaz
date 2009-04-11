@@ -677,9 +677,12 @@ div.timeline-entry:hover{
 	/*
 		Entries that have been "read" (selected and then deselected)
 	*/
-	div.timeline-entry.read{
-	  max-height:20px;
-	}
+	div.timeline-entry.read{}
+	div.timeline-entry.read:not(.ui-selected){
+    max-height:25px;
+    padding-top:5px;
+    padding-bottom:5px;
+  }
 	div.timeline-entry.read:hover{
 	  opacity:1;
 	}
@@ -697,10 +700,18 @@ div.timeline-entry:hover{
 			color:#f0f0f0;
 			white-space:normal;
 		}
-		div.timeline-entry.read div.user{
-		  opacity:0.5;
-		}
-		div.timeline-entry.read div.user div.user-image{}
+    div.timeline-entry.read:not(.ui-selected) div.user{
+      overflow:hidden;
+      opacity:0.5;
+      white-space:nowrap;
+    }
+    div.timeline-entry.read:not(.ui-selected) div.user img.user-image{
+      width:24px;
+      height:24px;
+    }
+    div.timeline-entry.read:not(.ui-selected) div.user div.user-screen-name{
+      display:none;
+    }
 
 	/*
 		Selected entries
@@ -708,11 +719,9 @@ div.timeline-entry:hover{
 		We don't actually use that here, but it was experimented with, and may return sometime
 	*/
 	div.timeline-entry.ui-selected{
-	  max-height:500px;
     background:#0076df url(images/timeline-entry-selected-bg.png) 0 0 repeat-x;
     border-top:0;
 		color:#f0f0f0;
-		opacity:1;
 	}
 		div.timeline-entry.ui-selected div.status-link{
 			font-size:9px;
@@ -726,9 +735,7 @@ div.timeline-entry:hover{
 			font-weight:bold;
 			text-shadow:1px 1px 1px #000;
 		}
-		div.timeline-entry.ui-selected div.user{
-		  opacity:1;
-		}
+		div.timeline-entry.ui-selected div.user{}
 		div.timeline-entry.ui-selecting{
 			background-color: #666666 !important;
 		}
