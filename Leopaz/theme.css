@@ -860,9 +860,25 @@ div.timeline-entry:hover{
 }
   .friendslist-row .directory-user-followstatus{
     float:right;
-    opacity:0.5;
+    height:10px;
+    background:transparent 0 0 no-repeat;
+    text-indent:-9999em;
   }
-	.friendslist-row .directory-user{}
+  .friendslist-row .directory-user-followstatus[rel=mutual]{
+    width:60px;
+    background-image:url(images/followstatus-mutual.png);
+  }
+  .friendslist-row .directory-user-followstatus[rel=follower]{
+    width:61px;
+    background-image:url(images/followstatus-follower.png);
+  }
+  .friendslist-row .directory-user-followstatus[rel=following]{
+    width:44px;
+    background-image:url(images/followstatus-friend.png);
+  }
+	.friendslist-row .directory-user{
+	  margin-top:-2px;
+	}
 		.directory-user .user-image{
 			float:left;
 			background-color:#dddddd;
@@ -888,7 +904,7 @@ div.timeline-entry:hover{
 		}
 		.directory-user .directory-user-info{
 		  margin-top:0.5em;
-		  margin-bottom:-1.5em; /* Close up unneeded space below */
+		  overflow:auto;
 		}
 		  .directory-user .directory-user-info .clickable{
 		    opacity:0.75;
@@ -897,9 +913,10 @@ div.timeline-entry:hover{
 		    opacity:1;
   		  text-decoration:underline;
 		  }
-  		.directory-user .directory-user-location:hover{}
-		  .directory-user .directory-user-homepage{
-		    display:block;
+  		.directory-user .directory-user-location,
+  		.directory-user .directory-user-homepage{
+		    float:left;
+		    clear:left;
 		  }
 
 
