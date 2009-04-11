@@ -241,12 +241,9 @@ a:hover{
 				#tab-search                                 { background-position:-62px 0; }
 				#tab-search:active                          { background-position:-62px -22px; }
 				#tab-search.TabbedPanelsTabSelected         { background-position:-62px -44px; }
-				#tab-friendslist                            { background-position:0 0; margin-left:15px; }
-				#tab-friendslist:active                     { background-position:0 -22px; }
-				#tab-friendslist.TabbedPanelsTabSelected    { background-position:0 -44px; }
-				#tab-followerslist                          { background-position:-62px 0; }
-				#tab-followerslist:active                   { background-position:-62px -22px; }
-				#tab-followerslist.TabbedPanelsTabSelected  { background-position:-62px -44px; }
+        #tab-friendslist                            { background-position:-93px 0; margin-left:9px; }
+        #tab-friendslist:active                     { background-position:-93px -22px; }
+        #tab-friendslist.TabbedPanelsTabSelected    { background-position:-93px -44px; }
 				#tab-prefs                                  { background-position:-93px 0; position:absolute; right:0; margin-left:15px; }
 				#tab-prefs:active                           { background-position:-93px -22px; }
 				#tab-prefs.TabbedPanelsTabSelected          { background-position:-93px -44px; }
@@ -268,8 +265,6 @@ a:hover{
 				    #tab-search.TabbedPanelsTabSelected .tab-icon       { background:url(images/tab-icon-search-selected.png) 5px 1px no-repeat; }
 				    #tab-friendslist .tab-icon                          { background:url(images/tab-icon-following.png) 7px 5px no-repeat; }
 				    #tab-friendslist.TabbedPanelsTabSelected .tab-icon  { background:url(images/tab-icon-following-selected.png) 4px 1px no-repeat; }
-				    #tab-followerslist .tab-icon                        { background:url(images/tab-icon-followers.png) 6px 4px no-repeat; }
-				    #tab-followerslist.TabbedPanelsTabSelected .tab-icon{ background:url(images/tab-icon-followers-selected.png) 4px 0 no-repeat; }
 				    #tab-prefs .tab-icon                                { background:url(images/tab-icon-prefs.png) 6px 3px no-repeat; }
 				    #tab-prefs.TabbedPanelsTabSelected .tab-icon        { background:url(images/tab-icon-prefs-selected.png) 3px 0 no-repeat; }
 
