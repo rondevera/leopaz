@@ -689,7 +689,9 @@ div.timeline-entry:hover{
 	div.timeline-entry.read:hover{
 	  opacity:1;
 	}
-		div.timeline-entry.read .status-text{
+		div.timeline-entry.read:not(.ui-selected) .status-text{
+      margin-top:5px; /* Show only status text */
+      margin-bottom:99px;
 		  overflow:hidden;
 			color:#999;
 			text-overflow:ellipsis;
@@ -701,7 +703,7 @@ div.timeline-entry:hover{
 		}
 		div.timeline-entry.read.ui-selected .status-text{
 			color:#f0f0f0;
-			white-space:normal;
+/*      white-space:normal;*/
 		}
     div.timeline-entry.read:not(.ui-selected) div.user{
       overflow:hidden;
