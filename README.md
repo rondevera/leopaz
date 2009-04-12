@@ -29,7 +29,7 @@ Enjoy! Find me on Twitter as [@ronalddevera][7]. Comments and requests are welco
   [1]: http://www.apple.com/macosx/
   [2]: http://funkatron.com/spaz
   [3]: http://twitter.com
-  [4]: http://github.com/rondevera/leopaz/raw/9f3aeeff373febca4bcd1c1b49d7ab49090d0a09/images/leopaz-preview.png "Leopaz preview"
+  [4]: http://github.com/rondevera/leopaz/raw/ee472e9d405964e38f791267affcc957cf12bd33/Leopaz/images/leopaz-preview.png "Leopaz preview"
   [5]: http://github.com/rondevera/leopaz/downloads
   [6]: http://funkatron.com/spaz
   [7]: http://twitter.com/ronalddevera
