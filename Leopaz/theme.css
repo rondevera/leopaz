@@ -670,15 +670,15 @@ div.timeline-entry:hover{
 		Entries that are replies directed at the user
 	*/
 	div.timeline-entry.reply{
-    background-color:#ffffba;
     border-top:1px solid #fdec64;
+    background:#ffffba url(images/timeline-entry-mention-bg.png) 0 0 repeat-x;
 	}
 	/*
 		Entries that are direct messages to the user
 	*/
 	div.timeline-entry.dm{
-    background-color:#fcc;
     border-top:1px solid #f99;
+    background:#fcc url(images/timeline-entry-dm-bg.png) 0 0 repeat-x;
 	}
 	/*
 		Entries that have been "read" (selected and then deselected)
@@ -706,7 +706,6 @@ div.timeline-entry:hover{
 		}
 		div.timeline-entry.read.ui-selected .status-text{
 			color:#f0f0f0;
-/*      white-space:normal;*/
 		}
     div.timeline-entry.read:not(.ui-selected) div.user{
       overflow:hidden;
