@@ -763,7 +763,7 @@ div.timeline-entry:hover{
 		img.user-image{
 			margin-bottom:2px;
 			background:#fff url(images/userimg-bg.png) center center no-repeat;
-      border:1px solid #999999;
+      /* border:1px solid #999999; */
 			-webkit-box-shadow:0px 1px 5px #333;
 		}
 
@@ -885,7 +885,7 @@ div.timeline-entry:hover{
 		.directory-user .user-image{
 			float:left;
 			background-color:#dddddd;
-			border:1px solid #999;
+			/* border:1px solid #999; */
 			width:30px;
 			height:30px;
 			margin:0 5px 0 0;
