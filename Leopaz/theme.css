@@ -677,8 +677,8 @@ div.timeline-entry:hover{
 		Entries that are direct messages to the user
 	*/
 	div.timeline-entry.dm{
-    background-color:#ffffba;
-    border-top:1px solid #fdec64;
+		background-color:#eaa;
+		border-top:1px solid #d99;
 	}
 	/*
 		Entries that have been "read" (selected and then deselected)
