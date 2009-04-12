@@ -670,15 +670,15 @@ div.timeline-entry:hover{
 		Entries that are replies directed at the user
 	*/
 	div.timeline-entry.reply{
-		background-color:#eea;
-		border-top:1px solid #dd9;
+    background-color:#ffffba;
+    border-top:1px solid #fdec64;
 	}
 	/*
 		Entries that are direct messages to the user
 	*/
 	div.timeline-entry.dm{
-		background-color:#eaa;
-		border-top:1px solid #d99;
+    background-color:#fcc;
+    border-top:1px solid #f99;
 	}
 	/*
 		Entries that have been "read" (selected and then deselected)
