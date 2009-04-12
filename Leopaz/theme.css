@@ -670,8 +670,8 @@ div.timeline-entry:hover{
 		Entries that are replies directed at the user
 	*/
 	div.timeline-entry.reply{
-		background-color:#c0c0c0;
-		border-top:1px solid #b0b0b0;
+		background-color:#eea;
+		border-top:1px solid #dd9;
 	}
 	/*
 		Entries that are direct messages to the user
