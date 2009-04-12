@@ -35,6 +35,9 @@ a:hover{
 *:focus{
   outline:0;
 }
+.highlight{
+  border-bottom:1px dotted #884;
+}
 
 /*
 	the .even and .odd classes are really only used in the timelines, but 
