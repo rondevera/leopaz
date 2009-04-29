@@ -712,6 +712,9 @@ div.timeline-entry:hover{
       opacity:0.5;
       white-space:nowrap;
     }
+    div.timeline-entry.read:not(.ui-selected):hover div.user{
+      opacity:1;
+    }
     div.timeline-entry.read:not(.ui-selected) div.user img.user-image{
       width:24px;
       height:24px;
