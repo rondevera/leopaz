@@ -709,7 +709,7 @@ div.timeline-entry:hover{
 		}
     div.timeline-entry.read:not(.ui-selected) div.user{
       overflow:hidden;
-      opacity:0.5;
+      opacity:0.75;
       white-space:nowrap;
     }
     div.timeline-entry.read:not(.ui-selected):hover div.user{
