@@ -715,6 +715,9 @@ div.timeline-entry:hover{
     div.timeline-entry.read:not(.ui-selected):hover div.user{
       opacity:1;
     }
+    div.timeline-entry.read:not(.ui-selected):hover .status-text{
+      color:#000;
+    }
     div.timeline-entry.read:not(.ui-selected) div.user img.user-image{
       width:24px;
       height:24px;
