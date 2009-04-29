@@ -1,7 +1,7 @@
 Leopaz
 ======
 
-An [OS X][1] Leopard-style theme for [Spaz][2], the open-source [Twitter][3] client. ([preview][4]) ([download][5])
+An [OS X][1] Leopard-style theme for [Spaz][2], the open-source [Twitter][3] client. ([preview][4]) ([download][5]) ([@ronalddevera][9])
 
 [![Leopaz preview][4]][5]
 
@@ -34,3 +34,4 @@ Enjoy! Find me on Twitter as [@ronalddevera][7]. Comments and requests are welco
   [6]: http://funkatron.com/spaz
   [7]: http://twitter.com/ronalddevera
   [8]: http://wiki.github.com/rondevera/leopaz
+  [9]: http://twitter.com/home?status=@ronalddevera%20
