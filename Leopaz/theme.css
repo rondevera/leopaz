@@ -1037,7 +1037,7 @@ div.timeline-entry:hover{
 						vertical-align:-20%;
 					}
 					#prefs-form option {
-						font-family:sans-serif;
+/*            font-family:sans-serif;*/
 						size:10px;
 					}
 					input[type='button'], input[type='submit'] {
@@ -1055,12 +1055,21 @@ div.timeline-entry:hover{
 							border-color:#444444;
 							color:#FFFFFF;
 						}
-
+				  #prefs-form input[type=text],
+				  #prefs-form input[type=password]{
+            background: #fff url(images/text-input-bg.png) 0 0 no-repeat;
+            border-top:0;
+            border-left:0;
+            border-right:1px solid #c3c3c3;
+            border-bottom:1px solid #ddd;
+          }
+                    /*
                     input[type="text"]:focus,
                     input[type="password"]:focus,
                     textarea:focus {
                         background-color:#FFFFCC;
                     }
+                    */
                     
                     
 					/*
