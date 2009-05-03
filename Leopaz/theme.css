@@ -1002,14 +1002,26 @@ div.timeline-entry:hover{
 					padding:0 10px;
 				}
   				#prefs-form .CollapsiblePanelContent > div.formrow{
-  				  /* For form sections that aren't in fieldsets */
-            margin:8px;
-            padding:8px;
+  				  /* Form sections that aren't in fieldsets */
+            margin:0 8px;
+            padding:4px 8px;
             background:#fff;
-            -khtml-border-radius:8px;
+            -khtml-border-radius:0;
           }
+  				#prefs-form .CollapsiblePanelContent > div.formrow:first-child{
+            margin-top:8px;
+            padding-top:8px;
+            -khtml-border-top-left-radius:8px;
+            -khtml-border-top-right-radius:8px;
+          }
+  				#prefs-form .CollapsiblePanelContent > div.formrow:last-child{
+            margin-bottom:8px;
+            padding-bottom:8px;
+            -khtml-border-bottom-left-radius:8px;
+            -khtml-border-bottom-right-radius:8px;
+				  }
           #prefs-form > div.formrow{
-            /* For "Save Preferences" section */
+            /* "Save Preferences" section */
             padding:0 16px;
           }
                     
