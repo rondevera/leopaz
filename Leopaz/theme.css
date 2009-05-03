@@ -1002,7 +1002,7 @@ div.timeline-entry:hover{
 					padding:0 10px;
 				}
   				#prefs-form .CollapsiblePanelContent > div.formrow{
-  				  /* Form sections that aren't in fieldsets */
+  				  /* Form rows that aren't in fieldsets */
             margin:0 8px;
             padding:4px 8px;
             background:#fff;
@@ -1020,6 +1020,10 @@ div.timeline-entry:hover{
             -khtml-border-bottom-left-radius:8px;
             -khtml-border-bottom-right-radius:8px;
 				  }
+          #prefs-form .CollapsiblePanelContent fieldset + div.formrow{
+            /* Form rows that are siblings of fieldsets */
+            -khtml-border-radius:8px;
+          }
           #prefs-form > div.formrow{
             /* "Save Preferences" section */
             padding:0 16px;
