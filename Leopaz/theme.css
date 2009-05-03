@@ -409,7 +409,7 @@ a:hover{
 							The .timeline divs are all inside .TabbedPanelsContent divs
 						*/
 						div.timeline {
-							background:transparent url('images/dropshadow.png') 0 0 repeat-x;
+							background:transparent url('images/dropshadow.png') 0 -3px repeat-x;
 							padding:0px;
 							margin:0px;
 						}
@@ -935,7 +935,8 @@ div.timeline-entry:hover{
 */
 
 #panel-prefs .timeline-wrapper{
-border-top: 1px solid #404040;
+  background-color:#e8e8e8;
+  border-top: 1px solid #404040;
 }
 #prefs-form {
 	font-size:11px;
