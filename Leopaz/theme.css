@@ -996,8 +996,15 @@ div.timeline-entry:hover{
 				#panel-prefs div.formrow{
 					clear:both;
 					margin-bottom:5px;
-					padding:0 20px;
-				}                    
+					padding:0 10px;
+				}
+				#prefs-form .CollapsiblePanelContent > div.formrow{
+				  /* For form sections that aren't in fieldsets */
+          margin:8px;
+          padding:8px;
+          background:#fff;
+          -khtml-border-radius:8px;
+        }
                     
 					#prefs-form label {
 						min-width:80px;
@@ -1012,18 +1019,35 @@ div.timeline-entry:hover{
 						display:inline;
 					}
 
-                    #prefs-form fieldset {
-                        border-left-width: 0px;
-                        border-right-width: 0px;
-                        border-bottom-width: 0px;
-                        padding:5px 0 5px 3px;                        
-                        margin: 10px 0 0 0;                        
+                    #prefs-form fieldset{
+                      position:relative;
+                      display:block;
+                      margin:8px;
+                      padding-top:30px;
+                      background:#fff;
+                      border:2px solid #fff;
+                      -khtml-border-radius:8px;
+                      -webkit-box-shadow:2px 2px 5px #000;
                     }
-
+                      #prefs-form legend{
+                        position:absolute;
+                        top:0;
+                        left:0;
+                        right:0;
+                        display:block;
+                        margin:0;
+                        padding:2px 8px 4px;
+                        background:#ebeef2 url(images/prefs-panel-legend-bg.png) 0 0 repeat-x;
+                        -khtml-border-top-left-radius:8px;
+                        -khtml-border-top-right-radius:8px;
+                        border-bottom:2px ridge #ebeef2;
+                        font-weight:bold;
+                      }
+                      /*
                         #prefs-form legend {
                             font-weight:bold;
                         }
-
+                        */
                         #prefs-form fieldset label {
                             font-weight:normal;
                         }
