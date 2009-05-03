@@ -953,6 +953,9 @@ div.timeline-entry:hover{
 		  margin:0 0 1px;
       background:transparent url(images/prefs-panel-header-bg.png) 0 0 repeat-x;
 		}
+    #panel-prefs .CollapsiblePanelOpen:last-child{
+      border-bottom:1px solid #a5a5a5;
+    }
 		#prefs-form .CollapsiblePanelClosed{}
 		
 			/*
@@ -998,13 +1001,17 @@ div.timeline-entry:hover{
 					margin-bottom:5px;
 					padding:0 10px;
 				}
-				#prefs-form .CollapsiblePanelContent > div.formrow{
-				  /* For form sections that aren't in fieldsets */
-          margin:8px;
-          padding:8px;
-          background:#fff;
-          -khtml-border-radius:8px;
-        }
+  				#prefs-form .CollapsiblePanelContent > div.formrow{
+  				  /* For form sections that aren't in fieldsets */
+            margin:8px;
+            padding:8px;
+            background:#fff;
+            -khtml-border-radius:8px;
+          }
+          #prefs-form > div.formrow{
+            /* For "Save Preferences" section */
+            padding:0 16px;
+          }
                     
 					#prefs-form label {
 						min-width:80px;
