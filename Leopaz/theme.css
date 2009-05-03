@@ -965,6 +965,7 @@ div.timeline-entry:hover{
         border-top:1px solid #818181;
         border-bottom:1px solid #818181;
         color:#555;
+        cursor:pointer;
 			  font-size:11px;
 			}
 				#prefs-form h2.CollapsiblePanelTabHover{}
