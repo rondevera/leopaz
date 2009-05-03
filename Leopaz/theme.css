@@ -1060,7 +1060,7 @@ div.timeline-entry:hover{
                         display:block;
                         margin:0;
                         padding:2px 8px 4px;
-                        background:#ebeef2 url(images/prefs-panel-legend-bg.png) 0 0 repeat-x;
+                        background:#d6dde5 url(images/prefs-panel-legend-bg.png) 0 0 repeat-x;
                         -khtml-border-top-left-radius:8px;
                         -khtml-border-top-right-radius:8px;
                         border-bottom:2px ridge #ebeef2;
