@@ -935,7 +935,7 @@ div.timeline-entry:hover{
 */
 
 #panel-prefs .timeline-wrapper{
-  background-color:#e8e8e8;
+  background-color:#d6dde5; /* light blue */
   border-top: 1px solid #404040;
 }
 #prefs-form {
@@ -951,7 +951,7 @@ div.timeline-entry:hover{
 		
 		#prefs-form .CollapsiblePanel{
 		  margin:0 0 1px;
-      background:transparent url(images/prefs-panel-header-bg.png) 0 0 repeat-x;
+      background:#e8e8e8 url(images/prefs-panel-header-bg.png) 0 0 repeat-x;
 		}
     #panel-prefs .CollapsiblePanelOpen:last-child{
       border-bottom:1px solid #a5a5a5;
