@@ -1134,11 +1134,14 @@ div.timeline-entry:hover{
 						width:30px;
 						text-align:right;
 					}
-					#prefs-user-stylesheet-button, #prefs-user-stylesheet-clear {
+					#prefs-user-stylesheet-button,
+          #prefs-user-stylesheet-edit,
+          #prefs-user-stylesheet-clear{
+            width:90px;
+						margin:0px;
 						padding:2px;
 						font-size:10px;
-						margin:0px;
-					}
+          }
 
 	/*
 		The update/save prefs button sits outside the panel group
