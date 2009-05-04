@@ -482,6 +482,9 @@ a:hover{
         background:#f0f0f0 url(images/text-input-bg.png) 0 0 no-repeat;
         border:none;
 			}
+			#entrybox:focus{
+			  outline:3px solid #98bde1; /* light blue */
+			}
 				/* the hint shown when the widget does not have focus */
 				.textareaHintState{
 					color:#828282;
