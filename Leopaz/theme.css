@@ -104,6 +104,9 @@ a:hover{
 					font-size:0px;
 					text-indent:-9999em;
 				}
+				body:not(.active) .window-button{
+				  background-position:0 0;
+				}
 				#window-buttons:hover .window-button{
 				  background-position:-28px 0;
 				}
