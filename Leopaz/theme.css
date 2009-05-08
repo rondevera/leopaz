@@ -1085,6 +1085,10 @@ div.timeline-entry:hover{
 					/*
 						Buncha junk for various form fields, really only used in the Preferences section
 					*/
+          body:not(.active) #prefs-form input,
+          body:not(.active) #prefs-form select{
+            opacity:0.5;
+          }
 					#prefs-form input[type='password'],
 					#prefs-form input[type='text'],
 					#prefs-form select {
