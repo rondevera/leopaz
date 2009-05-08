@@ -742,6 +742,11 @@ div.timeline-entry:hover{
     border-top:0;
 		color:#f0f0f0;
 	}
+	body:not(.active) div.timeline-entry.ui-selected{
+    background-image:url(images/timeline-entry-selected-inactive-bg.png);
+    background-color:#7d7e7e;
+  }
+  
 		div.timeline-entry.ui-selected div.status-link{
 			font-size:9px;
 			color:#CCCCCC;
