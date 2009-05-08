@@ -238,24 +238,30 @@ a:hover{
 					color: #FFFFFF;
 					text-decoration: none;
 				}
-				#tab-friends                                {}
-				#tab-friends:active                         { background-position:0 -22px; }
-				#tab-friends.TabbedPanelsTabSelected        { background-position:0 -44px; }
-				#tab-user                                   { background-position:-31px 0; }
-				#tab-user:active                            { background-position:-31px -22px; }
-				#tab-user.TabbedPanelsTabSelected           { background-position:-31px -44px; }
-				#tab-public                                 { background-position:-31px 0; }
-				#tab-public:active                          { background-position:-31px -22px; }
-				#tab-public.TabbedPanelsTabSelected         { background-position:-31px -44px; }
-				#tab-search                                 { background-position:-62px 0; }
-				#tab-search:active                          { background-position:-62px -22px; }
-				#tab-search.TabbedPanelsTabSelected         { background-position:-62px -44px; }
-        #tab-friendslist                            { background-position:-93px 0; margin-left:9px; }
-        #tab-friendslist:active                     { background-position:-93px -22px; }
-        #tab-friendslist.TabbedPanelsTabSelected    { background-position:-93px -44px; }
-				#tab-prefs                                  { background-position:-93px 0; position:absolute; right:0; margin-left:15px; }
-				#tab-prefs:active                           { background-position:-93px -22px; }
-				#tab-prefs.TabbedPanelsTabSelected          { background-position:-93px -44px; }
+        #tab-friends                                    {}
+          #tab-friends:active                             { background-position:0 -22px; }
+          #tab-friends.TabbedPanelsTabSelected            { background-position:0 -44px; }
+          #tab-friends.TabbedPanelsTabSelected:active     { background-position:0 -66px; }
+        #tab-user                                       { background-position:-31px 0; }
+          #tab-user:active                                { background-position:-31px -22px; }
+          #tab-user.TabbedPanelsTabSelected               { background-position:-31px -44px; }
+          #tab-user.TabbedPanelsTabSelected:active        { background-position:-31px -66px; }
+        #tab-public                                     { background-position:-31px 0; }
+          #tab-public:active                              { background-position:-31px -22px; }
+          #tab-public.TabbedPanelsTabSelected             { background-position:-31px -44px; }
+          #tab-public.TabbedPanelsTabSelected:active      { background-position:-31px -66px; }
+        #tab-search                                     { background-position:-62px 0; }
+          #tab-search:active                              { background-position:-62px -22px; }
+          #tab-search.TabbedPanelsTabSelected             { background-position:-62px -44px; }
+          #tab-search.TabbedPanelsTabSelected:active      { background-position:-62px -66px; }
+        #tab-friendslist                                { background-position:-93px 0; margin-left:9px; }
+          #tab-friendslist:active                         { background-position:-93px -22px; }
+          #tab-friendslist.TabbedPanelsTabSelected        { background-position:-93px -44px; }
+          #tab-friendslist.TabbedPanelsTabSelected:active { background-position:-93px -66px; }
+        #tab-prefs                                      { background-position:-93px 0; position:absolute; right:0; margin-left:15px; }
+          #tab-prefs:active                               { background-position:-93px -22px; }
+          #tab-prefs.TabbedPanelsTabSelected              { background-position:-93px -44px; }
+          #tab-prefs.TabbedPanelsTabSelected:active       { background-position:-93px -66px; }
 				
 					/* The image in the tab itself */
 					.tab-icon{
