@@ -135,6 +135,9 @@ a:hover{
 				cursor:pointer;
   			text-shadow:0 1px 1px #fff;
 			}
+			body:not(.active) #header-label{
+        opacity:0.75;
+      }
 			#header-label:after{
         content:' \025BC'; /* Down-pointing triangle */
         font-size:0.5em;
