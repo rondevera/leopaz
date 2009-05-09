@@ -66,6 +66,11 @@ a:hover{
 		bottom:8px;
 		right:8px;
 	}
+	body:not(.active) #container{
+	  background-color:#d2d2d2;
+	  background-image:url(images/header-inactive-bg.png);
+	}
+	
 
 
 		/*********************************************************************
