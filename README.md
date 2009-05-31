@@ -1,22 +1,21 @@
 Leopaz
 ======
 
-An [OS X][1] Leopard-style theme for [Spaz][2], the open-source [Twitter][3] client. ([preview][4]) ([download][5]) ([@ronalddevera][9])
+An [OS X][1] Leopard-style theme for [Spaz][2], the open-source [Twitter][3] client. ([preview][4]) ([@ronalddevera][9])
+
+(Leopaz is [now an official theme][10] in Spaz 0.8.2. Thanks for your support!)
 
 [![Leopaz preview][4]][5]
 
 
-Installation
-------------
+Setup
+-----
 
-Assuming you already have [Spaz][6] installed:
+Leopaz is now bundled with Spaz&mdash;no extra download is required! Just enable it:
 
- 1. In Spaz, switch to the Preferences tab, scroll to the bottom, and click *Open Prefs Folder*. Inside that, open the *userthemes* folder.
- 2. **Important:** If you have a *leopaz* (lowercase) folder already (from v0.1), switch back to the Spaz application, open the *Interface* section, change your theme to the default *spaz*, and quit Spaz.
- 3. Download the [latest zip][5] of Leopaz.
- 4. Open your downloaded copy to find the *Leopaz* folder. Drop this into the *userthemes* folder.
- 5. Restart Spaz.
- 6. In Spaz, switch to the Preferences tab again. In the *Interface* section, select *Leopaz* from the *Theme* dropdown menu.
+ 1. In Spaz, switch to the Preferences tab.
+ 2. Expand the *Interface* section.
+ 3. Select *Leopaz* from the *Theme* dropdown menu.
 
 
 More info
@@ -35,3 +34,4 @@ Enjoy! Find me on Twitter as [@ronalddevera][7]. Comments and requests are welco
   [7]: http://twitter.com/ronalddevera
   [8]: http://wiki.github.com/rondevera/leopaz
   [9]: http://twitter.com/home?status=@ronalddevera%20
+  [10]: http://groups.google.com/group/spaz-users/browse_thread/thread/8371f53d776fc9cf/ef6356f15f12a8df?show_docid=ef6356f15f12a8df
