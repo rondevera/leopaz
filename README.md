@@ -3,7 +3,7 @@ Leopaz
 
 An [OS X][1] Leopard-style theme for [Spaz][2], the open-source [Twitter][3] client. ([preview][4]) ([@ronalddevera][9])
 
-(Leopaz is [now an official theme][10] in Spaz 0.8.2. Thanks for your support!)
+Leopaz is [now an official theme][10] in Spaz 0.8.2. Future development will continue in the [official Spaz Desktop repo][11]. Thanks for your support!
 
 [![Leopaz preview][4]][5]
 
@@ -35,3 +35,4 @@ Enjoy! Find me on Twitter as [@ronalddevera][7]. Comments and requests are welco
   [8]: http://wiki.github.com/rondevera/leopaz
   [9]: http://twitter.com/home?status=@ronalddevera%20
   [10]: http://groups.google.com/group/spaz-users/browse_thread/thread/8371f53d776fc9cf/ef6356f15f12a8df?show_docid=ef6356f15f12a8df
+  [11]: http://github.com/funkatron/spaz-desktop-air
